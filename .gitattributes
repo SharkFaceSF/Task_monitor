@@ -1,10 +1,10 @@
 * text=auto eol=lf
 
-# Для Python файлов явно
+# Для Python и веб-файлов явно
 *.py text eol=lf
+*.js text eol=lf
 *.html text eol=lf
 *.css text eol=lf
-*.js text eol=lf
 *.json text eol=lf
 *.yml text eol=lf
 *.yaml text eol=lf
