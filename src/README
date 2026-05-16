@@ -1,0 +1,17 @@
+Название: Task Monitor System.
+
+Стэк: Python 3.11, Django 5, DRF, Celery, Redis, PostgreSQL, Docker.
+
+Функционал: Асинхронный парсинг сайтов, Swagger дока, мониторинг задач.
+
+Запуск: - docker-compose up --build
+
+docker-compose exec web python manage.py migrate
+
+Доступы:
+
+API: http://localhost:8000/api/tasks/
+
+Swagger: http://localhost:8000/api/docs/
+
+Flower: http://localhost:5555/
